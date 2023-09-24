@@ -1,0 +1,29 @@
+.itemCard {
+  width: 15rem;
+  margin: 1.1rem;
+  box-shadow: 0 10px 10px #01010166;
+  border: 1px solid rgba(1, 1, 1, 0.075);
+  border-radius: 10px;
+}
+.infoRow {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.pokemonTypeDiv {
+  width: 40%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+.pokemonImage {
+  padding: 20px;
+  background-color: #fefffc;
+  border-radius: 0 0 10px 10px;
+}
+.cardHeader {
+  background-color: whitesmoke;
+
+  border-radius: 10px 10px 0 0;
+}

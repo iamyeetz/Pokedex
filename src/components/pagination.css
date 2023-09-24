@@ -1,0 +1,22 @@
+.paginationDiv {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0.5rem;
+  color: white;
+}
+
+.paginationDiv span {
+  margin-top: 0.3rem;
+}
+.paginationDiv button {
+  height: 2rem;
+  width: 10rem;
+  border-radius: 10px;
+  background-color: rgb(127, 33, 33);
+  color: white;
+}
+
+.paginationDiv button:disabled {
+  background-color: rgb(67, 67, 67);
+}
